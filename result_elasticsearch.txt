@@ -1,0 +1,25 @@
+{
+	'took': 1,
+	'timed_out': False,
+	'_shards': {
+		'total': 2, 
+		'successful': 2, 
+		'skipped': 0, 
+		'failed': 0},
+	'hits': {
+		'total': {
+			'value': 40, 
+			'relation': 'eq'},
+		'max_score': 19915308.0,
+		'hits': [{
+			'_index': 'testindex5', 
+			'_type': '_doc'
+			'_id': '3ULQEoEBJIFhlkH-Hw5d', 
+			'_score': 19915308.0, 
+			'_source': {
+				'id': 19, 
+				'embedding_vector': 'P1oOxD6fL5Y8tv9hPbCDxz8m6Xw/dYtiPv2MPT7Xph0+ukbWPscBkz9eQb4+rztGP3ASnD8ZBLM/XFIEPzLp/T8UCyA+pKuYP29EKz8HKPE+WEi4PxTC6j47YPM91tarPZzD7SlIs/Su7xPyuGgD4ZZCY+f9CsPq5X8j9DbRw+DjQaPz4fij9nZ4U+/yxLPyCeWD8ngaU8UADyP3w2AD8M3k0+/56APyOokj8PWbc+gNAaPyGagT8rpRk8TTJGP2OoSz9GI78+JjLoPrTuOT9dlWs/IjVcP1iPWz7nK7g/Bo1dPsi5pD8xQXs+MC+0Punm8j6EuPw+6vnZP1/F0g=='
+				}
+			}]
+		}
+}
